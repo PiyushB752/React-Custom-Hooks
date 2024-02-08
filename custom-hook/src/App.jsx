@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import useStorage from './assets/storage';
+import {useStorage} from './assets/storage';
 
 function App() {
   const [Val, setVal] = useStorage();
