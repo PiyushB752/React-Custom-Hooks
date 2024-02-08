@@ -9,4 +9,4 @@ const useStorage = () => {
   return [val,setval]
 };
 
-export default useStorage;
+export {useStorage};
